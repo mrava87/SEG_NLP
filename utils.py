@@ -1,5 +1,9 @@
+# Library of functions used in notebooks for scraping and analysing the website of
+# SEG Geophysics journal (http://library.seg.org/loi/gpysa7)
+#
+# 19-11-2017
+# M. Ravasi
 
-# list of all imports
 import os
 import glob 
 from datetime import datetime,date
@@ -212,10 +216,3 @@ def print_confusion_matrix(confusion_matrix, class_names, figsize = (10,7), font
     plt.ylabel('True label')
     plt.xlabel('Predicted label')
     
-    
-    
-
-
-# Automatic creation of requirements.txt file via 
-# pipreqs ../SEG_Geophysics --force
-
