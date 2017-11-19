@@ -61,4 +61,12 @@ To install those packages simply run
 pip install -r /path/to/requirements.txt
 ```
 
+### 3. Fire up Jupyter notebook
 
+In the terminal, execute `jupyter notebook`.
+
+Then open the notebook `NLP_SEG_datacollection.ipynb` to collect some data and `NLP_SEG_analysis.ipynb` to analyse data 
+
+
+## Code
+The code in this repository is released under the [MIT license](LICENSE). Read more at the [Open Source Initiative](https://opensource.org/licenses/MIT). 
