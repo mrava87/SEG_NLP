@@ -72,7 +72,7 @@ conda env create -f environment.yml
 This will create a new environment called seg_nlp. To activate the environment execute
 
 ```
-source activate fb_live_nlp
+source activate seg_nlp
 ```
 
 
