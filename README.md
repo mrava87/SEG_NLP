@@ -54,12 +54,27 @@ Alternatively, you can download the zip file of the repository at the top of the
 
 ### 2. Install the correct packages
 
-To ensure that you can reproduce my results, the requirements.txt file contain a list of the packages used in my notebooks and their specific version.
+To ensure that you can reproduce my results, two options are provided. 
+
+If you prefer to use pip, use the requirements.txt file which contains a list of the packages used in my notebooks and their specific version.
 
 To install those packages simply run 
 ```
 pip install -r /path/to/requirements.txt
 ```
+
+If you want to work with a conda environment, install required packages in a new conda environment:
+
+```
+conda env create -f environment.yml
+```
+
+This will create a new environment called seg_nlp. To activate the environment execute
+
+```
+source activate fb_live_nlp
+```
+
 
 ### 3. Fire up Jupyter notebook
 
