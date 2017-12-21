@@ -72,6 +72,20 @@ def get_pubhistory(dates):
 	return received, accepted, published 
 
 
+def get_month(date):
+	""" 
+	Extract month from date
+	"""
+	return int(date.split('-')[1])
+
+
+def get_year(date):
+	""" 
+	Extract year from date
+	"""
+	return int(date.split('-')[0])
+
+
 def find_categories(html):
 	""" 
 	Find number of papers for each category in the html of a journal issue
