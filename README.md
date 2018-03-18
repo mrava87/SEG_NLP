@@ -1,4 +1,4 @@
-# Natural Language Processing NLP
+# Webscraping and NLP of Geophysics papers
 
 ## Objective
 Do you wonder what are the most used words in the titles of **Geophysics** journal from Society of Exploration Geophysicists? Or, how long
